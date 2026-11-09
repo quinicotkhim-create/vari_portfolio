@@ -356,6 +356,28 @@ footer a {
         gap: 25px;
     }
 
+/* SMOOTH TRANSITIONS */
+button,
+a,
+input[type="submit"] {
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* GENERAL BUTTON HOVER */
+button:hover,
+input[type="submit"]:hover {
+    opacity: 0.85;
+}
+
+
+/* BUTTON CLICK EFFECT */
+button:active,
+input[type="submit"]:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease;
+}
+
     .social-links {
         gap: 20px;
     }
